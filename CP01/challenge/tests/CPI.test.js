@@ -12,11 +12,16 @@ const {
   persona,
 } = require("../CheckPoint-0I.js");
 
+console.log(nombre);
+console.log(edad);
+console.log(esEstudiante);
+
+
 // Reemplaza 'tuejercicio.js' con el nombre de tu archivo de ejercicios
 
 // Ejemplo de prueba para el primer ejercicio
 test('Prueba: Declarar una variable "nombre"', () => {
-  const nombre = "TuNombre"; // Asigna cualquier cadena que desees aquí
+  const nombre = "Nacho"; // Asigna cualquier cadena que desees aquí
   expect(typeof nombre).toBe("string");
 });
 

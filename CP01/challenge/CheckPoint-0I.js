@@ -50,12 +50,14 @@ console.log(numeroIndefinido)
 // Ejercicio 9: Declarar una variable "frutas" y asignarle un arreglo de nombres de frutas.
 
 // Escribí tu código acá abajo:
-
+const frutas = "bananas";
+console.log(frutas)
 
 // Ejercicio 10: Declarar una variable "persona" y asignarle un objeto con propiedades nombre (string), edad(number) y ciudad(string).
 
 // Escribí tu código acá abajo:
-
+const persona = {nombre: "Nacho", edad: 41, ciudad: "Rosario"};
+console.log(persona)
 
 module.exports = {
   nombre,
@@ -69,4 +71,5 @@ module.exports = {
   frutas,
   persona,
   // Exporta las demás constantes aquí
+  
 };
